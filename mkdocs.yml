@@ -1,0 +1,58 @@
+site_name: YOGA 官方文档
+site_author: Yuumi Zeus
+site_url: "https://yogadocs.com"
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: JetBrains Mono
+  icon:
+    logo: fontawesome/brands/unity
+  favicon: assets/HeadPicture256.png
+  palette:
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: green
+      accent: deep purple
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: blue
+      accent: deep orange 
+
+markdown_extensions:
+  # 让 Markdown 支持 html
+  - attr_list
+  # 表情符号
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://www.youtube.com/@Yuumi-Zeus
+    - icon: simple/github
+      link: https://github.com/Yuumi-Zeus
+copyright: Copyright &copy; 2025 Yuumi Zeus
+
+ 
