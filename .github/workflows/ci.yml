@@ -1,29 +1,54 @@
+# 工作流名称
 name: ci
+
+# 触发条件配置
 on:
   push:
+    # 仅在推送到 master 或 main 分支时触发
     branches:
       - master
       - main
+
+# 设置工作流权限（允许写入内容）
 permissions:
   contents: write
+
+# 定义工作列表
 jobs:
+  # 部署任务
   deploy:
+    # 使用最新版 Ubuntu 运行环境
     runs-on: ubuntu-latest
+
+    # 任务步骤
     steps:
+      # 第一步：检出仓库代码（使用官方 checkout 动作）
       - uses: actions/checkout@v4
+
+      # 第二步：配置 Git 提交身份（用于后续 gh-deploy）
       - name: Configure Git Credentials
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config user.name github-actions[bot]  # 设置机器人的用户名
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com  # 设置机器人的认证邮箱
+
+      # 第三步：设置 Python 环境（自动安装指定版本的 Python）
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.x # 使用最新的 3.x 版本
+
+      # 第四步：生成每周更新的缓存 ID（使用 ISO 周数）
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      # 第五步：缓存依赖（加速后续构建）
       - uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
+          key: mkdocs-material-${{ env.cache_id }} # 每周自动更新的缓存键
+          path: .cache # 缓存目录路径
+          restore-keys: | # 备用匹配模式
             mkdocs-material-
+
+      # 第六步：安装 MkDocs Material 主题
       - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+
+      # 第七步：执行部署命令（强制部署到 GitHub Pages）
+      - run: mkdocs gh-deploy --force # --force 确保覆盖历史提交

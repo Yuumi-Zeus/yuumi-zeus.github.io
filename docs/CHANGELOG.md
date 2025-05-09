@@ -26,4 +26,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 #### OdinToolkits
 
 - 新增一个简单工具，QuickGenerateSO - 快速右键生成 SO 资源，自动遍历选择的资源，根据继承了 `ScriptableObject`的脚本，生成 SO 资源。
-
