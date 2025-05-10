@@ -24,7 +24,8 @@ jobs:
     steps:
       # 第一步：检出仓库代码（使用官方 checkout 动作）
       - uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0
       # 第二步：配置 Git 提交身份（用于后续 gh-deploy）
       - name: Configure Git Credentials
         run: |
@@ -48,7 +49,10 @@ jobs:
             mkdocs-material-
 
       # 第六步：安装 MkDocs Material 主题
-      - run: pip install mkdocs-material mkdocs-rss-plugin
-
-      # 第七步：执行部署命令（强制部署到 GitHub Pages）
+      - run: pip install mkdocs-material
+      # 安装 RSS 插件
+      - run: pip install mkdocs-rss-plugin
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-authors-plugin
+      # 执行部署命令（强制部署到 GitHub Pages）
       - run: mkdocs gh-deploy --force # --force 确保覆盖历史提交
