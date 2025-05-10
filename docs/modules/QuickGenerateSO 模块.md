@@ -1,4 +1,4 @@
-# QuickGenerateSO 模块文档
+# QuickGenerateSO 模块
 
 ## 用法
 

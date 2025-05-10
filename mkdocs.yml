@@ -1,6 +1,14 @@
-site_name: Unity YOGA
+site_name: OdinToolkits Documentation
+site_description: OdinToolkits 的官方文档网站
 site_author: Yuumi-Zeus
-site_url: "https://unityyogadocs.com"
+site_url: "https://odintoolkitsdocs.com"
+copyright: Copyright &copy; 2025 Yuumi-Zeus
+
+# 仓库配置
+repo_url: https://github.com/Yuumi-Zeus/yuumi-zeus.github.io # 右上角点击跳转的链接
+repo_name: Mkdocs-Yuumi-Zeus # 右上角的名字
+
+# 主题配置
 theme:
   name: material
   font:
@@ -9,53 +17,106 @@ theme:
   icon:
     repo: fontawesome/brands/github #右上角图标
   favicon: assets/HeadPicture256.png
+  language: zh # 一些提示性的文字会变成中文
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/link
         name: 关闭自动模式
-    #primary: blue grey
+      # primary: blue grey
     - media: "(prefers-color-scheme: light)"
       scheme: default # 日间模式
-      primary: blue grey # 上方的
-      accent: blue # 链接等可交互元件的高亮色
+      primary: indigo # 上方的
+      accent: indigo # 链接等可交互元件的高亮色
       # teal
       toggle:
-        icon: material/toggle-switch # 图标
+        icon: material/weather-sunny # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - media: "(prefers-color-scheme: dark)"
       scheme: slate # 夜间模式
-      primary: black
-      accent: indigo
+      primary: green
+      accent: teal
       # teal
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: 切换至日间模式
   features:
-    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-    # - navigation.instant
-    #- header.autohide  #自动隐藏
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
     - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
     # - navigation.tabs.sticky #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
     - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+    - navigation.expand # 打开Tab时左侧目录全部展开
+    # - navigation.prune 左侧目录导航修剪，与 expend 不兼容，当文档数量特别多时，左侧目录导航需要比较多的内容，开启这个可以加快速度
+    - navigation.indexes #左侧目录章节索引
     - navigation.top # 返回顶部的按钮 在上滑时出现
     - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
+    - toc.follow
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
     - search.share #搜索分享按钮
-    - navigation.expand # 打开Tab时左侧目录全部展开
-    - navigation.indexes #启用节索引页后，可以将文档直接附加到节
+    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
     - content.tabs.link
     - content.tooltips
     - content.code.copy #代码复制
-    - content.action.edit
-    - content.action.view
     - content.code.annotate
-  language: zh # 一些提示性的文字会变成中文
-edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://github.com/Yuumi-Zeus/Yuumi-Zeus.github.io # 右上角点击跳转的链接
-repo_name: Mkdocs-Yuumi-Zeus # 右上角的名字
+
+plugins:
+  - search
+  - blog:
+      enabled: true
+      blog_dir: blog
+      archive_date_format: yyyy/MM
+      archive_url_date_format: yyyy/MM
+      categories_allowed:
+        - 技术
+        - 随笔
+      post_url_format: "{slug}"
+      authors_file: "{blog}/.authors.yml"
+      # blog_toc: false
+      # post_dir: "{blog}/posts"
+      # post_url_max_categories: 1
+      # post_slugify_separator: "-"
+      # post_excerpt_max_authors: 1
+      # post_excerpt_max_categories: 5
+      # post_excerpt_separator: <!-- more -->
+      # post_readtime: true
+      # post_readtime_words_per_minute: 265
+      # archive: true
+      # archive_name: Archive
+      # archive_pagination: true
+      # archive_pagination_per_page: 10
+      # archive_toc: false
+      # categories: true
+      # categories_name: Categories
+      # categories_slugify_separator: "-"
+      # categories_pagination: true
+      # categories_pagination_per_page: 10
+      # categories_toc: false
+      # authors: true
+      # authors_file: "{blog/.authors.yml}"
+      # authors_profiles: false
+      # authors_profiles_name: Authors
+      # authors_profiles_pagination: true
+      # authors_profiles_pagination_per_page: 10
+      # authors_profiles_toc: false
+      # pagination: true
+      # pagination_per_page: 10
+      # pagination_keep_content: false
+      # draft: false
+      # draft_on_serve: true
+      # draft_if_future_date: false
+  - tags:
+      tags_file: tags.md
+  - rss:
+      match_path: blog/posts/.*
+      pretty_print: true
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+
+# Markdown 扩展
 markdown_extensions:
   # Python Markdown
   - abbr
@@ -96,9 +157,28 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 额外部分配置，包括 css，javascript，以及各种其他文件
+
+
 extra:
   social:
     - icon: simple/github
       link: https://github.com/Yuumi-Zeus
-copyright: Copyright &copy; 2025 Yuumi-Zeus
+
+hooks:
+  - hooks/socialmedia.py
+# 目录配置
+nav:
+  - Home:
+      - index.md
+      - CHANGELOG.md
+  - Framework:
+      - framework/index.md
+  - Modules:
+      - modules/QuickGenerateSO 模块.md
+  - ThirdParty:
+      - thirdparty/index.md
+  - Blog:
+      - blog/index.md
+      - tags.md

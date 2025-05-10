@@ -1,42 +1,21 @@
-# YOGA 主页
+# OdinToolkits
 
 ## 简介
 
-全称：Yuumi Odin Graphic Architecture。
+`OdinToolkits` 是一个开源项目，个人开发插件，`Unity Odin Inspector` 插件的扩展工具集，旨在挖掘 `Odin Inspector` 插件用法，补充 `Unity` 编辑器开发。
 
-通过 ScriptableObject 实现图形化/可视化，SO 架构基于 Unity 官方电子书，构建参考QFramework 理念。
+同时内部包含一个模块化的游戏开发架构，基于 `ScriptableObject` 构建，类似于 `Soap` 插件。
 
-内部包含 OdinToolkits 插件，个人开发插件，Odin Inspector 插件扩展工具集，挖掘 Odin Inspector 插件用法，补充 Unity 编辑器开发，以及部分通用工具，可以用于学习 Odin Inspector 插件的使用。
-
-## 文件结构
+## 项目结构
 
 ```text
 Plugins/
-├─ Architecture/
-├─ Common/
-├─ OdinToolkits/
-│  ├─ Runtime/
-│  ├─ Editor/
-│  ├─ Modules/
-
-```
-
----
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-```text
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+├─ Yuumix/
+│  ├─ OdinToolkits/
+│  │  ├─ Common/
+│  │  ├─ Examples/
+│  │  ├─ Framework/
+│  │  ├─ Modules/
+│  │  ├─ ThirdParty/
+│  │  ├─ CHANGELOG.md
 ```
