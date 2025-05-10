@@ -11,6 +11,7 @@ repo_name: Mkdocs-Yuumi-Zeus # 右上角的名字
 # 主题配置
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Merriweather Sans
     code: JetBrains Mono
