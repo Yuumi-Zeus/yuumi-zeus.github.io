@@ -48,8 +48,7 @@ jobs:
             mkdocs-material-
 
       # 第六步：安装 MkDocs Material 主题
-      - run: pip install mkdocs-material
-          pip install mkdocs-rss-plugin # 显式安装RSS插件
+      - run: pip install mkdocs-material mkdocs-rss-plugin # 显式安装RSS插件
 
       # 第七步：执行部署命令（强制部署到 GitHub Pages）
       - run: mkdocs gh-deploy --force # --force 确保覆盖历史提交
