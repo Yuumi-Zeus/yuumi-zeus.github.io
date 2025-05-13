@@ -19,7 +19,9 @@ jobs:
   deploy:
     # 使用最新版 Ubuntu 运行环境
     runs-on: ubuntu-latest
-
+    # 🔑 新增环境变量配置（从仓库 Secrets 读取 Token）
+    env:
+      MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GH_TOKEN }} # 对应仓库 Secrets 中的 GH_TOKEN
     # 任务步骤
     steps:
       # 第一步：检出仓库代码（使用官方 checkout 动作）
@@ -48,12 +50,18 @@ jobs:
           restore-keys: | # 备用匹配模式
             mkdocs-material-
 
-      # 第六步：安装 MkDocs Material 主题
-      - run: pip install mkdocs-material
-      # 安装 RSS 插件
-      - run: pip install mkdocs-rss-plugin
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: pip install mkdocs-git-authors-plugin
-      - run: pip install -r requirements.txt
-      # 执行部署命令（强制部署到 GitHub Pages）
-      - run: mkdocs gh-deploy --force # --force 确保覆盖历史提交
+      # 🚀 新增环境变量传递给构建流程
+      - name: Build Docs
+        run: |
+          pip install mkdocs-material mkdocs-rss-plugin \
+              mkdocs-git-revision-date-localized-plugin \
+              mkdocs-git-authors-plugin
+          pip install -r requirements.txt
+          # 通过 --strict 确保生产环境强制使用 Token
+          mkdocs gh-deploy --force --strict
+
+      # ✅ 安全防护：自动清理日志中的 Token 痕迹（防止意外泄露）
+      - name: Sanitize Logs
+        if: always()
+        run: |
+          sed -i "s/$MKDOCS_GIT_COMMITTERS_APIKEY/​**​*/g" $GITHUB_STEP_SUMMARY

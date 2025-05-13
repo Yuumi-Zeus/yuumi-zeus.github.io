@@ -127,8 +127,9 @@ plugins:
       fallback_to_build_date: false
       enabled: true
   - git-committers:
-      enabled: true
+      enabled: !ENV [CI, false]
       repository: Yuumi-Zeus/yuumi-zeus.github.io
+      token: ${MKDOCS_GIT_COMMITTERS_APIKEY} # 从环境变量读取
       branch: main
 
 # Markdown 扩展
@@ -184,8 +185,9 @@ extra:
   social:
     - icon: simple/github
       link: https://github.com/Yuumi-Zeus
-hooks:
-  - hooks/socialmedia.py
+# 钩子 用于显示一个社交媒体分享的按钮，暂时不需要 - 0513
+# hooks:
+# - hooks/socialmedia.py
 # 目录配置
 nav:
   - Home 主页:
@@ -197,6 +199,7 @@ nav:
       - modules/QuickGenerateSO 模块.md
   - ThirdParty 第三方:
       - thirdparty/index.md
-  - 博客:
-      - blog/index.md
+  - Tags 标签:
       - tags.md
+  - Blog 博客:
+      - blog/index.md

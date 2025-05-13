@@ -11,12 +11,12 @@
 - 开源库
 - 原作者：Schwapo
 - [Github 网站链接](https://github.com/Schwapo/Odin-Resolved-Parameters-Overview)
-- 引用并修改：YuumiZeus
+- 引用并修改：Yuumi-Zeus
 
 ### Rubi Logger
 
 - 官方商店免费资源
 - 原作者：rubickanov
 - [itch.io](https://rubickanov.itch.io/)
-- 引用：YuumiZeus
+- 引用：Yuumi-Zeus
 
