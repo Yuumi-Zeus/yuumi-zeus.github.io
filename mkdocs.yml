@@ -129,7 +129,7 @@ plugins:
   - git-committers:
       enabled: !ENV [CI, false]
       repository: Yuumi-Zeus/yuumi-zeus.github.io
-      token: ${MKDOCS_GIT_COMMITTERS_APIKEY} # 从环境变量读取
+      token: !ENV GH_TOKEN # 从环境变量读取
       branch: main
 
 # Markdown 扩展
