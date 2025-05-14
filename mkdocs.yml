@@ -197,8 +197,8 @@ nav:
       - framework/index.md
   - 功能模块:
       - Tools:
-          - modules/GenerateTemplateCode.md
-          - modules/QuickGenerateSO.md
+          - GenerateTemplateCode: modules/GenerateTemplateCode.md
+          - QuickGenerateSO: modules/QuickGenerateSO.md
   - 第三方资源:
       - thirdparty/index.md
   - 标签:
