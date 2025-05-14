@@ -178,8 +178,8 @@ markdown_extensions:
 
 
 extra_css:
-  - stylesheets/extra.css
   - https://static.zeoseven.com/zsft/292/main/result.css
+  - stylesheets/extra.css
 
 extra:
   social:
@@ -190,16 +190,16 @@ extra:
 # - hooks/socialmedia.py
 # 目录配置
 nav:
-  - Home 主页:
+  - 主页:
       - index.md
       - CHANGELOG.md
-  - Framework 框架:
+  - 框架:
       - framework/index.md
-  - Modules 模块:
+  - 功能模块:
       - modules/QuickGenerateSO 模块.md
-  - ThirdParty 第三方:
+  - 第三方资源:
       - thirdparty/index.md
-  - Tags 标签:
+  - 标签:
       - tags.md
-  - Blog 博客:
+  - 博客:
       - blog/index.md
