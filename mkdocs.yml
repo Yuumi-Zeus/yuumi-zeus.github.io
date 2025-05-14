@@ -196,6 +196,7 @@ nav:
   - 框架:
       - framework/index.md
   - 功能模块:
+      - modules/GenerateTemplateCode.md
       - modules/QuickGenerateSO.md
   - 第三方资源:
       - thirdparty/index.md
