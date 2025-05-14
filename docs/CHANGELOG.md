@@ -1,5 +1,5 @@
 ---
-comments: false  # 直接关闭评论功能
+comments: true
 ---
 
 # CHANGELOG
