@@ -6,6 +6,10 @@
 
 同时内部包含一个模块化的游戏开发架构，基于 `ScriptableObject` 构建，类似于 `Soap` 插件。
 
+## 项目链接
+
+Github 链接:[OdinToolkits-For-Unity](https://github.com/Yuumi-Zeus/OdinToolkits-For-Unity)
+
 ## 项目结构
 
 ```text

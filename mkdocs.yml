@@ -6,7 +6,7 @@ copyright: Copyright &copy; 2025 Yuumi-Zeus
 
 # 仓库配置
 repo_url: https://github.com/Yuumi-Zeus/yuumi-zeus.github.io # 右上角点击跳转的链接
-repo_name: Mkdocs-Yuumi-Zeus # 右上角的名字
+repo_name: MkDocs OdinToolkits # 右上角的名字
 edit_uri: edit/main/docs/
 
 # 主题配置
@@ -142,7 +142,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - toc:
-      permalink: true
+      permalink: ⚓︎
 
   # Python Markdown Extensions
   - pymdownx.arithmatex:
