@@ -12,9 +12,9 @@
 
 # 截图
 
-[截图1](imgs/OdinAttributesOverviewScreenShot_1.png)
+![截图1](imgs/OdinAttributesOverviewScreenShot_1.png)
 
 ---
 
-[截图2](imgs/OdinAttributesOverviewScreenShot_2.png)
+![截图2](imgs/OdinAttributesOverviewScreenShot_2.png)
 

@@ -1,14 +1,12 @@
 ---
-date:
-  created: 2025-05-10
-  updated: 2025-05-10
 categories:
-  - 技术
+  - 博客
 tags:
-  - 标记
+  - MkDocs
 authors:
   - Yuumi-Zeus
 slug: blog-start
+comments: true
 ---
 
 # 博客起始页

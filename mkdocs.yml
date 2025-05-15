@@ -1,12 +1,12 @@
 site_name: OdinToolkits Documentation
 site_description: OdinToolkits 的官方文档网站
 site_author: Yuumi-Zeus
-site_url: "https://odintoolkits.cn"
+site_url: "https://www.odintoolkits.cn"
 copyright: Copyright &copy; 2025 Yuumi-Zeus
 
 # 仓库配置
 repo_url: https://github.com/Yuumi-Zeus/yuumi-zeus.github.io # 右上角点击跳转的链接
-repo_name: MkDocs OdinToolkits # 右上角的名字
+repo_name: OdinToolkits Docs # 右上角的名字
 edit_uri: edit/main/docs/
 
 # 主题配置
