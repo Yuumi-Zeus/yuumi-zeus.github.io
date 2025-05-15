@@ -1,5 +1,7 @@
 ---
-
+title: OdinAttributeAnalyis
+slug: OdinAttributeAnalyis
+comments: true
 ---
 
 # 介绍
