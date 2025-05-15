@@ -1,8 +1,8 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "OdinToolkits Documentation",
-    "home_page_url": "https://odintoolkits.cn/",
-    "feed_url": "https://odintoolkits.cn/feed_json_updated.json",
+    "home_page_url": "https://www.odintoolkits.cn/",
+    "feed_url": "https://www.odintoolkits.cn/feed_json_updated.json",
     "description": "OdinToolkits \u7684\u5b98\u65b9\u6587\u6863\u7f51\u7ad9",
     "icon": null,
     "authors": [
@@ -13,12 +13,12 @@
     "language": "zh",
     "items": [
         {
-            "id": "https://odintoolkits.cn/blog/blog-start/",
-            "url": "https://odintoolkits.cn/blog/blog-start/",
-            "title": "\u535a\u5ba2\u8d77\u59cb\u9875",
-            "content_html": "<h1>\u535a\u5ba2\u8d77\u59cb\u9875</h1>\n<p>\u8fd9\u662f Yuumi-Zeus \u7684\u7b2c\u4e00\u6761\u535a\u5ba2\uff0c\u6b22\u8fce\u8bbf\u95ee\u3002</p>",
+            "id": "https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/",
+            "url": "https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/",
+            "title": "MkDocs \u590d\u76d8 - \u81ea\u5b9a\u4e49\u57df\u540d",
+            "content_html": "<h1>MkDocs \u590d\u76d8 - \u81ea\u5b9a\u4e49\u57df\u540d</h1>\n<p>\u8fd9\u662f\u6709\u5173\u4e8e MkDocs-Material \u7684\u90e8\u5206\u4f7f\u7528\u8bb0\u5f55\u3002</p>",
             "image": null,
-            "date_modified": "2025-05-10T00:00:00+00:00",
+            "date_modified": "2025-05-15T16:21:01+00:00",
             "authors": [
                 {
                     "name": "Yuumi-Zeus"
@@ -27,12 +27,12 @@
             "tags": null
         },
         {
-            "id": "https://odintoolkits.cn/blog/first-post/",
-            "url": "https://odintoolkits.cn/blog/first-post/",
-            "title": "First Post",
-            "content_html": "<h1>First Post</h1>\n<p>This is my first post.</p>",
+            "id": "https://www.odintoolkits.cn/blog/blog-start/",
+            "url": "https://www.odintoolkits.cn/blog/blog-start/",
+            "title": "\u535a\u5ba2\u8d77\u59cb\u9875",
+            "content_html": "<h1>\u535a\u5ba2\u8d77\u59cb\u9875</h1>\n<p>\u8fd9\u662f Yuumi-Zeus \u7684\u7b2c\u4e00\u6761\u535a\u5ba2\uff0c\u6b22\u8fce\u8bbf\u95ee\u3002</p>",
             "image": null,
-            "date_modified": "2025-05-10T00:00:00+00:00",
+            "date_modified": "2025-05-15T16:21:01+00:00",
             "authors": [
                 {
                     "name": "Yuumi-Zeus"

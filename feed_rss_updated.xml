@@ -4,8 +4,8 @@
     
     <title>OdinToolkits Documentation</title>
     <description>OdinToolkits 的官方文档网站</description>
-    <link>https://odintoolkits.cn/</link>
-    <atom:link href="https://odintoolkits.cn/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.odintoolkits.cn/</link>
+    <atom:link href="https://www.odintoolkits.cn/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
 
     
     <managingEditor>Yuumi-Zeus</managingEditor>
@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Thu, 15 May 2025 11:52:14 -0000</pubDate>
-    <lastBuildDate>Thu, 15 May 2025 11:52:14 -0000</lastBuildDate>
+    <pubDate>Thu, 15 May 2025 16:21:30 -0000</pubDate>
+    <lastBuildDate>Thu, 15 May 2025 16:21:30 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -24,6 +24,26 @@
     
 
     
+    
+    <item>
+      <title>MkDocs 复盘 - 自定义域名</title>
+      
+      
+        
+      <author>Yuumi-Zeus</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;MkDocs 复盘 - 自定义域名&lt;/h1&gt;
+&lt;p&gt;这是有关于 MkDocs-Material 的部分使用记录。&lt;/p&gt;</description>
+      <link>https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</link>
+      <pubDate>Thu, 15 May 2025 16:21:01 +0000</pubDate>
+      <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">OdinToolkits Documentation</source>
+      
+      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</guid>
+      
+    </item>
     
     <item>
       <title>博客起始页</title>
@@ -37,31 +57,11 @@
       
       <description>&lt;h1&gt;博客起始页&lt;/h1&gt;
 &lt;p&gt;这是 Yuumi-Zeus 的第一条博客，欢迎访问。&lt;/p&gt;</description>
-      <link>https://odintoolkits.cn/blog/blog-start/</link>
-      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <source url="https://odintoolkits.cn/feed_rss_updated.xml">OdinToolkits Documentation</source>
+      <link>https://www.odintoolkits.cn/blog/blog-start/</link>
+      <pubDate>Thu, 15 May 2025 16:21:01 +0000</pubDate>
+      <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">OdinToolkits Documentation</source>
       
-      <guid isPermaLink="true">https://odintoolkits.cn/blog/blog-start/</guid>
-      
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      
-      
-        
-      <author>Yuumi-Zeus</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;First Post&lt;/h1&gt;
-&lt;p&gt;This is my first post.&lt;/p&gt;</description>
-      <link>https://odintoolkits.cn/blog/first-post/</link>
-      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <source url="https://odintoolkits.cn/feed_rss_updated.xml">OdinToolkits Documentation</source>
-      
-      <guid isPermaLink="true">https://odintoolkits.cn/blog/first-post/</guid>
+      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/blog-start/</guid>
       
     </item>
     

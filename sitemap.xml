@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://odintoolkits.cn/</loc>
+         <loc>https://www.odintoolkits.cn/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/CHANGELOG/</loc>
+         <loc>https://www.odintoolkits.cn/CHANGELOG/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/blog/</loc>
+         <loc>https://www.odintoolkits.cn/blog/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/blog/blog-start/</loc>
+         <loc>https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/blog/first-post/</loc>
+         <loc>https://www.odintoolkits.cn/blog/blog-start/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/framework/</loc>
+         <loc>https://www.odintoolkits.cn/framework/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/modules/GenerateTemplateCode/</loc>
+         <loc>https://www.odintoolkits.cn/modules/GenerateTemplateCode/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/modules/OdinAttribute%E8%A7%A3%E6%9E%90%E6%89%8B%E5%86%8C/</loc>
+         <loc>https://www.odintoolkits.cn/modules/OdinAttribute%E8%A7%A3%E6%9E%90%E6%89%8B%E5%86%8C/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/modules/QuickGenerateSO/</loc>
+         <loc>https://www.odintoolkits.cn/modules/QuickGenerateSO/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/thirdparty/</loc>
+         <loc>https://www.odintoolkits.cn/thirdparty/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/blog/archive/2025/05/</loc>
+         <loc>https://www.odintoolkits.cn/blog/archive/2025/05/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/blog/category/%E6%8A%80%E6%9C%AF/</loc>
+         <loc>https://www.odintoolkits.cn/blog/category/%E5%A4%8D%E7%9B%98/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/blog/category/%E9%9A%8F%E7%AC%94/</loc>
+         <loc>https://www.odintoolkits.cn/blog/category/%E5%8D%9A%E5%AE%A2/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
     <url>
-         <loc>https://odintoolkits.cn/tags/</loc>
+         <loc>https://www.odintoolkits.cn/tags/</loc>
          <lastmod>2025-05-15</lastmod>
     </url>
 </urlset>
