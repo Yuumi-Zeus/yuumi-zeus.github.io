@@ -76,8 +76,8 @@ plugins:
       archive_date_format: yyyy/MM
       archive_url_date_format: yyyy/MM
       categories_allowed:
-        - 技术
-        - 随笔
+        - 复盘
+        - 博客
       post_url_format: "{slug}"
       authors_file: "{blog}/.authors.yml"
       # blog_toc: false
@@ -124,7 +124,7 @@ plugins:
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
-      fallback_to_build_date: false
+      fallback_to_build_date: true
       enabled: true
   - git-committers:
       enabled: !ENV [CI, false]

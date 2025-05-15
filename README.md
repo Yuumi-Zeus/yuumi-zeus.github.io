@@ -7,5 +7,5 @@
 [MkDocs 官方文档](https://www.mkdocs.org/)
 
 # OdinToolkits
-[OdinToolkits 文档](https://odintoolkits.cn/)
+[OdinToolkits 文档](https://www.odintoolkits.cn/)
 
