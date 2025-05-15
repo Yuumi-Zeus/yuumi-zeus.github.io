@@ -1,6 +1,4 @@
 ---
-title: OdinAttributeAnalysis
-slug: OdinAttributeAnalysis
 comments: true
 ---
 
