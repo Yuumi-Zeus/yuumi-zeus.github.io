@@ -20,7 +20,7 @@ theme:
     repo: fontawesome/brands/github #右上角图标
     edit: material/pencil
     view: material/eye
-  favicon: assets/HeadPicture256.png
+  favicon: assets/images/HeadPicture256.png
   language: zh # 一些提示性的文字会变成中文
   palette:
     - media: "(prefers-color-scheme)"
