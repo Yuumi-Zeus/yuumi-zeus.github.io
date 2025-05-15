@@ -135,6 +135,7 @@ plugins:
 # Markdown 扩展
 markdown_extensions:
   # Python Markdown
+  - tables
   - abbr
   - admonition
   - attr_list
