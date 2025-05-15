@@ -199,6 +199,8 @@ nav:
       - Tools:
           - GenerateTemplateCode: modules/GenerateTemplateCode.md
           - QuickGenerateSO: modules/QuickGenerateSO.md
+      - Odin:
+          - Odin Attributes 解析手册: modules/OdinAttribute解析手册.md
   - 第三方资源:
       - thirdparty/index.md
   - 标签:
