@@ -144,7 +144,8 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: ⚓︎
-
+  - pymdownx.slugs:
+      case: lower
   # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
