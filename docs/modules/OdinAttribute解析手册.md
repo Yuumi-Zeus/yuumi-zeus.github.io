@@ -1,5 +1,6 @@
 ---
 comments: true
+slug: OdinAttributeAnalysis
 ---
 
 # OdinAttribute 解析手册
