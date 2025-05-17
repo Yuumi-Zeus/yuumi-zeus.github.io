@@ -1,5 +1,5 @@
-site_name: OdinToolkits Documentation
-site_description: OdinToolkits 的官方文档网站
+site_name: OdinToolkits
+site_description: OdinToolkits 的官方网站
 site_author: Yuumi-Zeus
 site_url: "https://www.odintoolkits.cn"
 copyright: Copyright &copy; 2025 Yuumi-Zeus
@@ -75,9 +75,6 @@ plugins:
       blog_dir: blog
       archive_date_format: yyyy/MM
       archive_url_date_format: yyyy/MM
-      categories_allowed:
-        - 复盘
-        - 博客
       post_url_format: "{slug}"
       authors_file: "{blog}/.authors.yml"
       # blog_toc: false
@@ -163,6 +160,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.blocks.caption
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -176,7 +174,6 @@ markdown_extensions:
           format:
             !!python/name:pymdownx.superfences.fence_code_format # 额外部分配置，包括 css，javascript，以及各种其他文件
 
-
 extra_css:
   - https://static.zeoseven.com/zsft/292/main/result.css
   - stylesheets/extra.css
@@ -185,13 +182,12 @@ extra:
   social:
     - icon: simple/github
       link: https://github.com/Yuumi-Zeus
-# 钩子 用于显示一个社交媒体分享的按钮，暂时不需要 - 0513
-# hooks:
-# - hooks/socialmedia.py
+
 # 目录配置
 nav:
   - 主页:
       - index.md
+  - CHANGELOG:
       - CHANGELOG.md
   - 框架:
       - framework/index.md
@@ -200,10 +196,12 @@ nav:
           - GenerateTemplateCode: modules/GenerateTemplateCode.md
           - QuickGenerateSO: modules/QuickGenerateSO.md
       - Odin:
-          - Odin Attributes 解析手册: modules/OdinAttribute解析手册.md
-  - 第三方资源:
+          - Attributes Analysis: modules/OdinAttributeAnalysis.md
+  - 资源推荐:
       - thirdparty/index.md
   - 标签:
       - tags.md
-  - 博客:
+  - 知识库:
       - blog/index.md
+  - 留言板:
+      - comments.md

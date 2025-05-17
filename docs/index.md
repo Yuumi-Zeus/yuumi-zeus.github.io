@@ -1,4 +1,6 @@
 ---
+hide:
+  - navigation
 comments: true
 ---
 # OdinToolkits
