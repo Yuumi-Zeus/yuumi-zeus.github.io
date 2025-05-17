@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "OdinToolkits Documentation",
+    "title": "OdinToolkits",
     "home_page_url": "https://www.odintoolkits.cn/",
     "feed_url": "https://www.odintoolkits.cn/feed_json_created.json",
-    "description": "OdinToolkits \u7684\u5b98\u65b9\u6587\u6863\u7f51\u7ad9",
+    "description": "OdinToolkits \u7684\u5b98\u65b9\u7f51\u7ad9",
     "icon": null,
     "authors": [
         {

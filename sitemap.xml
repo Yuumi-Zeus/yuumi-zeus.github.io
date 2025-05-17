@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.odintoolkits.cn/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/CHANGELOG/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.odintoolkits.cn/comments/</loc>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/blog/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/blog/blog-start/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/framework/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/modules/GenerateTemplateCode/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/modules/OdinAttribute%E8%A7%A3%E6%9E%90%E6%89%8B%E5%86%8C/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <loc>https://www.odintoolkits.cn/modules/OdinAttributeAnalysis/</loc>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/modules/QuickGenerateSO/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/thirdparty/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/blog/archive/2025/05/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/blog/category/%E5%A4%8D%E7%9B%98/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/blog/category/%E5%8D%9A%E5%AE%A2/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
     <url>
          <loc>https://www.odintoolkits.cn/tags/</loc>
-         <lastmod>2025-05-16</lastmod>
+         <lastmod>2025-05-17</lastmod>
     </url>
 </urlset>
