@@ -2,6 +2,7 @@
 comments: true
 hide:
   - navigation
+  - toc
 ---
 
 !!! tips  "提示"

@@ -1,7 +1,7 @@
 ---
 date: 2025-05-15
 categories:
-  - 复盘
+  - 经验帖
 tags:
   - MkDocs
 authors:
@@ -12,7 +12,7 @@ comments: true
 
 # MkDocs 复盘 - 自定义域名
 
-这是有关于 MkDocs-Material 的部分使用记录。
+这是有关于 MkDocs-Material 自定义域名的部分使用记录。
 
 <!-- more -->
 

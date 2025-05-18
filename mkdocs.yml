@@ -197,11 +197,11 @@ nav:
           - QuickGenerateSO: modules/QuickGenerateSO.md
       - Odin:
           - Attributes Analysis: modules/OdinAttributeAnalysis.md
-  - 资源推荐:
+  - 第三方资源推荐:
       - thirdparty/index.md
   - 标签:
       - tags.md
-  - 知识库:
+  - 笔记博客:
       - blog/index.md
   - 留言板:
       - comments.md
