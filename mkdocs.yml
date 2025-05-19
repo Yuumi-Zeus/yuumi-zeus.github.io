@@ -193,10 +193,12 @@ nav:
       - framework/index.md
   - 功能模块:
       - Tools:
-          - GenerateTemplateCode: modules/GenerateTemplateCode.md
-          - QuickGenerateSO: modules/QuickGenerateSO.md
+          - GenerateTemplateCode: modules/tools/GenerateTemplateCode.md
+          - QuickGenerateSO: modules/tools/QuickGenerateSO.md
       - Odin:
-          - Attributes Analysis: modules/OdinAttributeAnalysis.md
+          - Attributes Analysis: modules/odin/OdinAttributeAnalysis.md
+          - Customs Attributes:
+              - SwitchButton: modules/odin/SwitchButtonAttribute.md
   - 第三方资源推荐:
       - thirdparty/index.md
   - 标签栏:
