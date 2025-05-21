@@ -11,6 +11,8 @@ comments: true
 
 同时内部包含一个模块化的游戏开发架构，基于 `ScriptableObject` 构建，类似于 `Soap` 插件。
 
+如果觉得项目部分内容不错，并采用的话，请给个 `Star` 吧！
+
 ## 项目链接
 
 Github 链接: [OdinToolkits-For-Unity](https://github.com/Yuumi-Zeus/OdinToolkits-For-Unity)
@@ -21,10 +23,13 @@ Github 链接: [OdinToolkits-For-Unity](https://github.com/Yuumi-Zeus/OdinToolki
 Plugins/
 ├─ Yuumix/
 │  ├─ OdinToolkits/
+│  │  ├─ Architecture/
 │  │  ├─ Common/
 │  │  ├─ Examples/
-│  │  ├─ Framework/
 │  │  ├─ Modules/
 │  │  ├─ ThirdParty/
 │  │  ├─ CHANGELOG.md
 ```
+!!! tip "温馨提示"
+
+    业余时间开发中，尽力维护项目更新...

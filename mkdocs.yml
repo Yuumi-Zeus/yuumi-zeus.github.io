@@ -1,12 +1,12 @@
-site_name: OdinToolkits
-site_description: OdinToolkits 的官方网站
+site_name: Odin Toolkits
+site_description: Odin Toolkits 的官方网站
 site_author: Yuumi-Zeus
 site_url: "https://www.odintoolkits.cn"
 copyright: Copyright &copy; 2025 Yuumi-Zeus
 
 # 仓库配置
 repo_url: https://github.com/Yuumi-Zeus/yuumi-zeus.github.io # 右上角点击跳转的链接
-repo_name: OdinToolkits Docs # 右上角的名字
+repo_name: Odin Toolkits Docs # 右上角的名字
 edit_uri: edit/main/docs/
 
 # 主题配置
@@ -189,8 +189,8 @@ nav:
       - index.md
   - CHANGELOG:
       - CHANGELOG.md
-  - 框架:
-      - framework/index.md
+  - SO 架构:
+      - architecture/index.md
   - 功能模块:
       - Tools:
           - GenerateTemplateCode: modules/tools/GenerateTemplateCode.md
