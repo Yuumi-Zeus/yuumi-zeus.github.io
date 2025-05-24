@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Odin Toolkits",
+    "title": "Odin Toolkits Docs",
     "home_page_url": "https://www.odintoolkits.cn/",
     "feed_url": "https://www.odintoolkits.cn/feed_json_updated.json",
     "description": "Odin Toolkits \u7684\u5b98\u65b9\u7f51\u7ad9",
@@ -18,7 +18,7 @@
             "title": "MkDocs \u590d\u76d8 - \u81ea\u5b9a\u4e49\u57df\u540d",
             "content_html": "<h1>MkDocs \u590d\u76d8 - \u81ea\u5b9a\u4e49\u57df\u540d</h1>\n<p>\u8fd9\u662f\u6709\u5173\u4e8e MkDocs-Material \u81ea\u5b9a\u4e49\u57df\u540d\u7684\u90e8\u5206\u4f7f\u7528\u8bb0\u5f55\u3002</p>",
             "image": null,
-            "date_modified": "2025-05-18T03:02:50+00:00",
+            "date_modified": "2025-05-24T08:24:37+00:00",
             "authors": [
                 {
                     "name": "Yuumi-Zeus"

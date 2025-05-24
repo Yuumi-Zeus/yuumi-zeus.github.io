@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     
-    <title>Odin Toolkits</title>
+    <title>Odin Toolkits Docs</title>
     <description>Odin Toolkits 的官方网站</description>
     <link>https://www.odintoolkits.cn/</link>
     <atom:link href="https://www.odintoolkits.cn/feed_rss_created.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 21 May 2025 14:27:22 -0000</pubDate>
-    <lastBuildDate>Wed, 21 May 2025 14:27:22 -0000</lastBuildDate>
+    <pubDate>Sat, 24 May 2025 08:25:13 -0000</pubDate>
+    <lastBuildDate>Sat, 24 May 2025 08:25:13 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -39,7 +39,7 @@
 &lt;p&gt;这是有关于 MkDocs-Material 自定义域名的部分使用记录。&lt;/p&gt;</description>
       <link>https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</link>
       <pubDate>Thu, 15 May 2025 14:51:45 +0000</pubDate>
-      <source url="https://www.odintoolkits.cn/feed_rss_created.xml">Odin Toolkits</source>
+      <source url="https://www.odintoolkits.cn/feed_rss_created.xml">Odin Toolkits Docs</source>
       
       <guid isPermaLink="true">https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</guid>
       
@@ -59,7 +59,7 @@
 &lt;p&gt;这是 Yuumi-Zeus 的第一条博客，欢迎访问。&lt;/p&gt;</description>
       <link>https://www.odintoolkits.cn/blog/blog-start/</link>
       <pubDate>Sat, 10 May 2025 08:58:26 +0000</pubDate>
-      <source url="https://www.odintoolkits.cn/feed_rss_created.xml">Odin Toolkits</source>
+      <source url="https://www.odintoolkits.cn/feed_rss_created.xml">Odin Toolkits Docs</source>
       
       <guid isPermaLink="true">https://www.odintoolkits.cn/blog/blog-start/</guid>
       
