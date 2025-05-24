@@ -17,6 +17,6 @@
 
 - 官方商店免费资源
 - 原作者：rubickanov
-- [itch.io](https://rubickanov.itch.io/)
+- [ Unity 资源商店链接](https://assetstore.unity.com/packages/tools/utilities/rubi-logger-279955)
 - 引用：Yuumi-Zeus
 

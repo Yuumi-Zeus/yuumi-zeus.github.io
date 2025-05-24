@@ -1,3 +1,3 @@
-# ScriptObject Architecture
+# Architecture
 
 业余时间更新，正在阅读官方电子书中...

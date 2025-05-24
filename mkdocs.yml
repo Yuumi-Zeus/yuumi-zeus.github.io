@@ -1,4 +1,4 @@
-site_name: Odin Toolkits
+site_name: Odin Toolkits Docs
 site_description: Odin Toolkits 的官方网站
 site_author: Yuumi-Zeus
 site_url: "https://www.odintoolkits.cn"
@@ -189,7 +189,7 @@ nav:
       - index.md
   - CHANGELOG:
       - CHANGELOG.md
-  - SO 架构:
+  - 架构:
       - architecture/index.md
   - 功能模块:
       - Tools:
@@ -201,6 +201,7 @@ nav:
               - SwitchButton: modules/odin/SwitchButtonAttribute.md
   - 第三方资源推荐:
       - thirdparty/index.md
+      - 日志 - RubiLogger: thirdparty/RubiLogger.md
   - 标签栏:
       - tags.md
   - 笔记博客:
