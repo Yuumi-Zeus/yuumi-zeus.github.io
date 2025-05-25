@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Sat, 24 May 2025 08:25:13 -0000</pubDate>
-    <lastBuildDate>Sat, 24 May 2025 08:25:13 -0000</lastBuildDate>
+    <pubDate>Sun, 25 May 2025 05:47:49 -0000</pubDate>
+    <lastBuildDate>Sun, 25 May 2025 05:47:49 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -38,10 +38,30 @@
       <description>&lt;h1&gt;MkDocs 复盘 - 自定义域名&lt;/h1&gt;
 &lt;p&gt;这是有关于 MkDocs-Material 自定义域名的部分使用记录。&lt;/p&gt;</description>
       <link>https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</link>
-      <pubDate>Thu, 15 May 2025 14:51:45 +0000</pubDate>
+      <pubDate>Sun, 25 May 2025 05:47:10 +0000</pubDate>
       <source url="https://www.odintoolkits.cn/feed_rss_created.xml">Odin Toolkits Docs</source>
       
       <guid isPermaLink="true">https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</guid>
+      
+    </item>
+    
+    <item>
+      <title>ScriptableSingleton</title>
+      
+      
+        
+      <author>Yuumi-Zeus</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;ScriptableSingleton&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;ScriptableSingleton&amp;lt;&amp;gt;&lt;/code&gt; 是一个泛型抽象类，用于创建编辑器状态的单例模式，可以跨项目存在于本地电脑。&lt;/p&gt;</description>
+      <link>https://www.odintoolkits.cn/blog/scriptablesingleton/</link>
+      <pubDate>Sun, 25 May 2025 05:47:10 +0000</pubDate>
+      <source url="https://www.odintoolkits.cn/feed_rss_created.xml">Odin Toolkits Docs</source>
+      
+      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/scriptablesingleton/</guid>
       
     </item>
     
