@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Odin Toolkits Docs",
+    "title": "Odin Toolkits",
     "home_page_url": "https://www.odintoolkits.cn/",
     "feed_url": "https://www.odintoolkits.cn/feed_json_created.json",
     "description": "Odin Toolkits \u7684\u5b98\u65b9\u7f51\u7ad9",
@@ -43,8 +43,8 @@
         {
             "id": "https://www.odintoolkits.cn/blog/blog-start/",
             "url": "https://www.odintoolkits.cn/blog/blog-start/",
-            "title": "\u535a\u5ba2\u8d77\u59cb\u9875",
-            "content_html": "<h1>\u535a\u5ba2\u8d77\u59cb\u9875</h1>\n<p>\u8fd9\u662f Yuumi-Zeus \u7684\u7b2c\u4e00\u6761\u535a\u5ba2\uff0c\u6b22\u8fce\u8bbf\u95ee\u3002</p>",
+            "title": "\u5f00\u53d1\u8005\u535a\u5ba2\u4ecb\u7ecd",
+            "content_html": "<h1>\u5f00\u53d1\u8005\u535a\u5ba2\u4ecb\u7ecd</h1>\n<p>\u8fd9\u662f Odin Toolkits \u7684\u5f00\u53d1\u8005\u535a\u5ba2\uff0c\u535a\u5ba2\u5185\u5bb9\u5c06\u4ee5 Odin Toolkits \u9879\u76ee\u4ea7\u54c1\u4e3a\u4e2d\u5fc3\uff0c\u53d1\u5e03\u4e0e\u5176\u76f8\u5173\u7684\u6587\u7ae0\uff0c\u5305\u62ec\u4f46\u4e0d\u9650\u4e8e Unity\uff0cMkDocs\uff0cC#\uff0c\u5f00\u53d1\u65e5\u5fd7\u7b49\u65b9\u9762\u7684\u5185\u5bb9\u3002</p>",
             "image": null,
             "date_published": "2025-05-10T08:58:26+00:00",
             "authors": [
