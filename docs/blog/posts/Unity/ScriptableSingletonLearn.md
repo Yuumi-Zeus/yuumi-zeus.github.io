@@ -3,7 +3,7 @@ date: 2025-05-25
 categories:
   - Unity
 tags:
-  - Unity Editor Extension
+  - Unity Internal
 authors:
   - Yuumi-Zeus
 # slug: mkdocsreview_customdomain

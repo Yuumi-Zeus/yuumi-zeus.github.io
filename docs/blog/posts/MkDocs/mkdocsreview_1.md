@@ -1,7 +1,7 @@
 ---
 date: 2025-05-15
 categories:
-  - 经验帖
+  - MkDocs
 tags:
   - MkDocs
 authors:

@@ -1,19 +1,21 @@
 ---
 date: 2025-05-10
 categories:
-  - 博客
+  - 入门
 tags:
-  - MkDocs
+  - Getting Started
 authors:
   - Yuumi-Zeus
 slug: blog-start
 comments: true
 ---
 
-# 博客起始页
+# 开发者博客介绍
 
-这是 Yuumi-Zeus 的第一条博客，欢迎访问。
+这是 Odin Toolkits 的开发者博客，博客内容将以 Odin Toolkits 项目产品为中心，发布与其相关的文章，包括但不限于 Unity，MkDocs，C#，开发日志等方面的内容。
 
 <!-- more -->
 
-以后将在此网页更新 OdinToolkits 的官方文档，有什么疑问可以评论。
+如果你对 Odin Toolkits 项目感兴趣，请访问 [Odin Toolkits](https://github.com/Yuumi-Zeus/OdinToolkits-For-Unity)。
+
+欢迎你的贡献！

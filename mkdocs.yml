@@ -1,4 +1,4 @@
-site_name: Odin Toolkits Docs
+site_name: Odin Toolkits 
 site_description: Odin Toolkits 的官方网站
 site_author: Yuumi-Zeus
 site_url: "https://www.odintoolkits.cn"
@@ -14,8 +14,8 @@ theme:
   name: material
   custom_dir: overrides
   font:
-    text: Merriweather Sans
-    code: JetBrains Mono
+    text: JetBrains Mono
+    code: JetBrains Mono 
   icon:
     repo: fontawesome/brands/github #右上角图标
     edit: material/pencil
@@ -192,11 +192,11 @@ extra:
 nav:
   - 主页:
       - index.md
+  - README:
+      - odinToolkitsReadme.md
   - CHANGELOG:
       - CHANGELOG.md
-  - 架构:
-      - architecture/index.md
-  - 功能模块:
+  - 使用手册:
       - Tools:
           - GenerateTemplateCode: modules/tools/GenerateTemplateCode.md
           - QuickGenerateSO: modules/tools/QuickGenerateSO.md
@@ -207,9 +207,12 @@ nav:
   - 第三方资源推荐:
       - thirdparty/index.md
       - 日志 - RubiLogger: thirdparty/RubiLogger.md
-  - 标签栏:
-      - tags.md
-  - 笔记博客:
+  - Scripting API: 
+      - TypeUtil: ScriptingAPI/TypeUtil.md
+      - OdinEditorWindow: ScriptingAPI/OdinEditorWindow.md
+  - 开发者博客: 
       - blog/index.md
+      - 标签总览:
+          - tags.md
   - 留言板:
       - comments.md
