@@ -210,8 +210,9 @@ nav:
       - thirdparty/index.md
       - 日志 - RubiLogger: thirdparty/RubiLogger.md
   - Scripting API: 
-      - TypeUtil: ScriptingAPI/TypeUtil.md
-      - OdinEditorWindow: ScriptingAPI/OdinEditorWindow.md
+      - Common:
+          - YuumixLogger: ScriptingAPI/Common/Logger/YuumixLogger.md
+          - WriteToFileExtension: ScriptingAPI/Common/Logger/WriteToFileExtension.md
   - 开发者博客: 
       - blog/index.md
       - 标签总览:
