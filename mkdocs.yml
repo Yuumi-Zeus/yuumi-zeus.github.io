@@ -129,14 +129,16 @@ plugins:
       token: !ENV GH_TOKEN # 从环境变量读取
       branch: main
 
-# Markdown 扩展
 markdown_extensions:
-  # Python Markdown
+  # === Lists Reference
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # ===
   - tables
   - abbr
   - admonition
   - attr_list
-  - def_list
   - footnotes
   - md_in_html
   - toc:
