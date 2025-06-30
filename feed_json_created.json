@@ -13,6 +13,20 @@
     "language": "zh",
     "items": [
         {
+            "id": "https://www.odintoolkits.cn/blog/yuumixloggerdeveloplog/",
+            "url": "https://www.odintoolkits.cn/blog/yuumixloggerdeveloplog/",
+            "title": "YuumixLogger \u5de5\u5177\u5f00\u53d1\u65e5\u5fd7",
+            "content_html": "<h1><code>YuumixLogger</code> \u5de5\u5177\u5f00\u53d1\u65e5\u5fd7</h1>\n<h2>\u529f\u80fd\u8bbe\u8ba1\u53ca\u9884\u671f\u5f00\u53d1\u8def\u7ebf</h2>\n<p>\u5206\u4e3a\u4e24\u90e8\u5206\uff0c\u57fa\u7840\u5c01\u88c5\u548c\u6269\u5c55\u5199\u5165\u6587\u4ef6\u3002</p>",
+            "image": null,
+            "date_published": "2025-06-30T15:51:59+00:00",
+            "authors": [
+                {
+                    "name": "Yuumi-Zeus"
+                }
+            ],
+            "tags": null
+        },
+        {
             "id": "https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/",
             "url": "https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/",
             "title": "MkDocs \u590d\u76d8 - \u81ea\u5b9a\u4e49\u57df\u540d",
