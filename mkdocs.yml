@@ -202,17 +202,12 @@ nav:
     - Manual:
         - Common:
             - CustomAttribute:
-                - SwitchAttribute: manual/Common/CustomAttribute/SwitchButtonAttribute.md
+                - SwitchButtonAttribute: manual/Common/CustomAttribute/SwitchButtonAttribute.md
         - Modules:
             - AttributeOverviewChinese: manual/Modules/AttributeOverviewChinese/OdinAttributeAnalysis.md
             - Tools: 
                 - QuickGenerateSO: manual/Modules/Tools/QuickGenerateSO.md
                 - TemplateCodeGen: manual/Modules/Tools/TemplateCodeGen.md
-    - Scripting API:
-        - Common:
-            - Logger:
-                - YuumixLogger: scriptingAPI/Common/Logger/YuumixLogger.md
-                - WriteToFileExtension: scriptingAPI/Common/Logger/WriteToFileExtension.md
     - Community:
         - community/index.md
         - 日志 - RubiLogger: community/RubiLogger.md
