@@ -3,10 +3,9 @@ date: 2025-05-25
 categories:
   - Unity
 tags:
-  - Unity Internal
+  - Unity Built-in
 authors:
   - Yuumi-Zeus
-# slug: mkdocsreview_customdomain
 comments: true
 ---
 

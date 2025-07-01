@@ -6,7 +6,7 @@ tags:
   - Getting Started
 authors:
   - Yuumi-Zeus
-slug: blog-start
+slug: blogstart
 comments: true
 ---
 

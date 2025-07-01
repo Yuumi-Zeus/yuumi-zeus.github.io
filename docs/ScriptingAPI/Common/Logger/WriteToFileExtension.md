@@ -1,4 +1,5 @@
 ﻿# `WriteToFileExtension static class`
+
 ## Introduction
 - NameSpace: `Yuumix.OdinToolkits.Common.Logger`
 - Assembly: `Assembly-CSharp-firstpass`
@@ -7,12 +8,15 @@
 public static class WriteToFileExtension : System.Object
 ```
 
+
 ## Methods
+
 | 方法 | 注释 | Comment |
 | :--- | :--- | :--- |
-| `public static void Execute(string message, LogType logType)` | 无 | No Comment |
+| `public static void Execute(string message, LogType logType)` | 无 | `No Comment` |
 
 ## Inherited Members
+
 | 成员 | 注释 | 声明此方法的类 |
 | :--- | :--- | :--- |
 | `public virtual bool Equals(Object obj)` | 无 | `System.Object` |
@@ -22,6 +26,7 @@ public static class WriteToFileExtension : System.Object
 | `protected virtual void Finalize()` | 无 | `System.Object` |
 | `protected Object MemberwiseClone()` | 无 | `System.Object` |
 
-## Addition Description
-- 不要修改标题级别和内容，## Addition Description 是标识符
-- Addition Description 之后的内容不会被新生成的文档覆盖，可以对特定的方法进行额外说明
+## Additional Description
+
+- `## Additional Description` 是标识符，由 `Odin Toolkits` 文档生成工具自动生成，请勿修改标题级别和内容。
+- `## Additional Description` 之后的内容将不会被覆盖，可以对文档补充说明。
