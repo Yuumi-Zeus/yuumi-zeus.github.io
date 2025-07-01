@@ -208,6 +208,11 @@ nav:
             - Tools: 
                 - QuickGenerateSO: manual/Modules/Tools/QuickGenerateSO.md
                 - TemplateCodeGen: manual/Modules/Tools/TemplateCodeGen.md
+    - ScriptingAPI:
+        - Common:
+            - Logger: 
+                - YuumixLogger: scriptingAPI/Common/Logger/YuumixLogger.md
+                - WriteToFileExtension: scriptingAPI/Common/Logger/WriteToFileExtension.md
     - Community:
         - community/index.md
         - 日志 - RubiLogger: community/RubiLogger.md
