@@ -1,4 +1,4 @@
-site_name: Odin Toolkits 
+site_name: Odin Toolkits
 site_description: Odin Toolkits 的官方网站
 site_author: Yuumi-Zeus
 site_url: "https://www.odintoolkits.cn"
@@ -15,7 +15,7 @@ theme:
   custom_dir: overrides
   font:
     text: JetBrains Mono
-    code: JetBrains Mono 
+    code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github #右上角图标
     edit: material/pencil
@@ -176,6 +176,7 @@ markdown_extensions:
           class: mermaid
           format:
             !!python/name:pymdownx.superfences.fence_code_format # 额外部分配置，包括 css，javascript，以及各种其他文件
+
   - pymdownx.tabbed:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
@@ -209,11 +210,12 @@ nav:
   - 第三方资源推荐:
       - thirdparty/index.md
       - 日志 - RubiLogger: thirdparty/RubiLogger.md
-  - Scripting API: 
+  - Scripting API:
       - Common:
-          - YuumixLogger: ScriptingAPI/Common/Logger/YuumixLogger.md
-          - WriteToFileExtension: ScriptingAPI/Common/Logger/WriteToFileExtension.md
-  - 开发者博客: 
+          - Logger:
+              - YuumixLogger: ScriptingAPI/Common/Logger/YuumixLogger.md
+              - WriteToFileExtension: ScriptingAPI/Common/Logger/WriteToFileExtension.md
+  - 开发者博客:
       - blog/index.md
       - 标签总览:
           - tags.md
