@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Tue, 01 Jul 2025 00:47:05 -0000</pubDate>
-    <lastBuildDate>Tue, 01 Jul 2025 00:47:05 -0000</lastBuildDate>
+    <pubDate>Tue, 01 Jul 2025 10:57:49 -0000</pubDate>
+    <lastBuildDate>Tue, 01 Jul 2025 10:57:49 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -24,6 +24,26 @@
     
 
     
+    
+    <item>
+      <title>开发者博客介绍</title>
+      
+      
+        
+      <author>Yuumi-Zeus</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;开发者博客介绍&lt;/h1&gt;
+&lt;p&gt;这是 Odin Toolkits 的开发者博客，博客内容将以 Odin Toolkits 项目产品为中心，发布与其相关的文章，包括但不限于 Unity，MkDocs，C#，开发日志等方面的内容。&lt;/p&gt;</description>
+      <link>https://www.odintoolkits.cn/blog/blogstart/</link>
+      <pubDate>Tue, 01 Jul 2025 10:57:13 +0000</pubDate>
+      <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">Odin Toolkits</source>
+      
+      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/blogstart/</guid>
+      
+    </item>
     
     <item>
       <title>YuumixLogger 工具开发日志</title>
@@ -39,7 +59,7 @@
 &lt;h2&gt;功能设计及预期开发路线&lt;/h2&gt;
 &lt;p&gt;分为两部分，基础封装和扩展写入文件。&lt;/p&gt;</description>
       <link>https://www.odintoolkits.cn/blog/yuumixloggerdeveloplog/</link>
-      <pubDate>Mon, 30 Jun 2025 15:51:59 +0000</pubDate>
+      <pubDate>Tue, 01 Jul 2025 10:57:13 +0000</pubDate>
       <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">Odin Toolkits</source>
       
       <guid isPermaLink="true">https://www.odintoolkits.cn/blog/yuumixloggerdeveloplog/</guid>
@@ -47,7 +67,7 @@
     </item>
     
     <item>
-      <title>开发者博客介绍</title>
+      <title>ScriptableSingleton</title>
       
       
         
@@ -56,13 +76,32 @@
       
       
       
-      <description>&lt;h1&gt;开发者博客介绍&lt;/h1&gt;
-&lt;p&gt;这是 Odin Toolkits 的开发者博客，博客内容将以 Odin Toolkits 项目产品为中心，发布与其相关的文章，包括但不限于 Unity，MkDocs，C#，开发日志等方面的内容。&lt;/p&gt;</description>
-      <link>https://www.odintoolkits.cn/blog/blog-start/</link>
-      <pubDate>Tue, 24 Jun 2025 12:47:47 +0000</pubDate>
+      <description>&lt;h1&gt;ScriptableSingleton&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;ScriptableSingleton&amp;lt;&amp;gt;&lt;/code&gt; 是一个泛型抽象类，用于创建编辑器状态的单例模式，可以跨项目存在于本地电脑。&lt;/p&gt;</description>
+      <link>https://www.odintoolkits.cn/blog/scriptablesingleton/</link>
+      <pubDate>Tue, 01 Jul 2025 10:57:13 +0000</pubDate>
       <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">Odin Toolkits</source>
       
-      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/blog-start/</guid>
+      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/scriptablesingleton/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Unity 判空重载学习</title>
+      
+      
+        
+      <author>Yuumi-Zeus</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;Unity 判空重载学习&lt;/h1&gt;</description>
+      <link>https://www.odintoolkits.cn/blog/unity-%E5%88%A4%E7%A9%BA%E9%87%8D%E8%BD%BD%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Tue, 01 Jul 2025 10:57:13 +0000</pubDate>
+      <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">Odin Toolkits</source>
+      
+      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/unity-%E5%88%A4%E7%A9%BA%E9%87%8D%E8%BD%BD%E5%AD%A6%E4%B9%A0/</guid>
       
     </item>
     
@@ -83,26 +122,6 @@
       <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">Odin Toolkits</source>
       
       <guid isPermaLink="true">https://www.odintoolkits.cn/blog/mkdocsreview_customdomain/</guid>
-      
-    </item>
-    
-    <item>
-      <title>ScriptableSingleton</title>
-      
-      
-        
-      <author>Yuumi-Zeus</author>
-        
-      
-      
-      
-      <description>&lt;h1&gt;ScriptableSingleton&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;ScriptableSingleton&amp;lt;&amp;gt;&lt;/code&gt; 是一个泛型抽象类，用于创建编辑器状态的单例模式，可以跨项目存在于本地电脑。&lt;/p&gt;</description>
-      <link>https://www.odintoolkits.cn/blog/scriptablesingleton/</link>
-      <pubDate>Tue, 24 Jun 2025 12:47:47 +0000</pubDate>
-      <source url="https://www.odintoolkits.cn/feed_rss_updated.xml">Odin Toolkits</source>
-      
-      <guid isPermaLink="true">https://www.odintoolkits.cn/blog/scriptablesingleton/</guid>
       
     </item>
     
