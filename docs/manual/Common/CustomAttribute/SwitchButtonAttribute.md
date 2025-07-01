@@ -7,7 +7,7 @@
 
 ## 效果图
 
-![效果图](../imgs/SwitchButton_Result.png)
+![效果图](../../imgs/SwitchButton_Result.png)
 
 /// caption
 SwitchButton 效果图

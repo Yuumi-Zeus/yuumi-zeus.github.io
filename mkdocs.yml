@@ -20,7 +20,7 @@ theme:
     repo: fontawesome/brands/github #右上角图标
     edit: material/pencil
     view: material/eye
-  favicon: assets/images/HeadPicture256.png
+  favicon: assets/imgs/HeadPicture256.png
   language: zh # 一些提示性的文字会变成中文
   palette:
     - media: "(prefers-color-scheme)"
@@ -193,31 +193,32 @@ extra:
 
 # 目录配置
 nav:
-  - 主页:
-      - index.md
-  - README:
-      - odinToolkitsReadme.md
-  - CHANGELOG:
-      - CHANGELOG.md
-  - 使用手册:
-      - Tools:
-          - GenerateTemplateCode: modules/tools/GenerateTemplateCode.md
-          - QuickGenerateSO: modules/tools/QuickGenerateSO.md
-      - Odin:
-          - Attributes Analysis: modules/odin/OdinAttributeAnalysis.md
-          - Customs Attributes:
-              - SwitchButton: modules/odin/SwitchButtonAttribute.md
-  - 第三方资源推荐:
-      - thirdparty/index.md
-      - 日志 - RubiLogger: thirdparty/RubiLogger.md
-  - Scripting API:
-      - Common:
-          - Logger:
-              - YuumixLogger: ScriptingAPI/Common/Logger/YuumixLogger.md
-              - WriteToFileExtension: ScriptingAPI/Common/Logger/WriteToFileExtension.md
-  - 开发者博客:
-      - blog/index.md
-      - 标签总览:
-          - tags.md
-  - 留言板:
-      - comments.md
+    - Home:
+        - index.md
+    - README:
+        - odinToolkitsReadme.md
+    - CHANGELOG:
+        - CHANGELOG.md
+    - Manual:
+        - Common:
+            - CustomAttribute:
+                - SwitchAttribute: manual/Common/CustomAttribute/SwitchAttribute.md 
+        - Modules:
+            - AttributeOverviewChinese: manual/Modules/AttributeOverviewChinese/OdinAttributeAnalysis.md
+            - Tools: 
+                - QuickGenerateSO: manual/Modules/Tools/QuickGenerateSO.md
+                - TemplateCodeGen: manual/Modules/Tools/TemplateCodeGen.md
+    - Scripting API:
+        - Common:
+            - Logger:
+                - YuumixLogger: scriptingAPI/Common/Logger/YuumixLogger.md
+                - WriteToFileExtension: scriptingAPI/Common/Logger/WriteToFileExtension.md
+    - Community:
+        - community/index.md
+        - 日志 - RubiLogger: community/RubiLogger.md
+    - 开发者博客:
+        - blog/index.md
+        - 标签总览:
+            - tags.md # tags 要放在 docs 根目录
+    - 留言板:
+        - comments/comments.md

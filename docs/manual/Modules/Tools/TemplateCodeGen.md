@@ -6,19 +6,19 @@
 
 ## 工具截图
 
-![生成模板代码工具总览截图](../imgs/GenerateTemplateCode_Overview.png)
+![生成模板代码工具总览截图](../../imgs/GenerateTemplateCode_Overview.png)
 
 /// caption
 生成模板代码工具总览
 ///
 
-![工具使用截图](../imgs/GenerateTemplateCode_Use.png)
+![工具使用截图](../../imgs/GenerateTemplateCode_Use.png)
 
 /// caption
 工具使用截图
 ///
 
-![模板截图](../imgs/GenerateTemplateCode_Template.png)
+![模板截图](../../imgs/GenerateTemplateCode_Template.png)
 
 /// caption
 脚本模板文件参考

@@ -646,10 +646,87 @@ static void CheckTotalFolderSize()
     }
 }
 ```
+!!! tip
 
-完整内容查看 [GitHub 项目仓库](https://github.com/Yuumi-Zeus/OdinToolkits-For-Unity)，如果有问题或者建议或者优化可以首先发布在评论区，或者提交 issue，沟通后可以提交PR。
+    完整内容查看 [GitHub 项目仓库](https://github.com/Yuumi-Zeus/OdinToolkits-For-Unity)，如果有问题或者建议或者优化可以首先发布在评论区，或者提交 issue，沟通后可以提交PR。
 
 
+## 后续优化学习 
+
+### 特殊类以及方法
+
+`StackTraceUtility - internal static string ExtractFormattedStackTrace(StackTrace stackTrace)` 可以抓取所有堆栈信息。
+
+`$"<a style='text-decoration: underline; href=\"{relativePath}\" line=\"{lineNumber}\">{relativePath}:{lineNumber}</a>";`，Unity 控制台支持超链接。可以跳转文件。简单来看，就是 `<a href=""> </a>` 标签。
+
+### 优化方案 - 快速跳转脚本文件 - 2025/07/01
+
+``` csharp
+static void LogInternal(string message, LogType logType = LogType.Log,
+    Type logTagType = null,
+    object sender = null,
+    bool showTimeStamp = true,
+    string prefix = "", Color prefixColor = default,
+    bool useCallerSuffix = false,
+    string suffix = "", Color suffixColor = default,
+    bool writeToFile = false,
+    string filePath = "",
+    int lineNumber = 0,
+    string memberName = "")
+{
+    if (logTagType != null && !OdinToolkitsRuntimeConfig.Instance.CanLog(logTagType))
+    {
+        return;
+    }
+    var sb = StringBuilderPool.Get();
+    sb = CreateMessage(sb, message, sender, showTimeStamp, prefix, prefixColor, useCallerSuffix,
+        suffix, suffixColor
+    );
+    if (useCallerSuffix)
+    {
+        sb.Append(" [")
+            .Append(Path.GetFileName(filePath))
+            .Append(" - line: ").Append(lineNumber)
+            .Append(" - ").Append(memberName)
+            .Append("]");
+    }
+    // 新增 ========================
+    var relativePath = PathUtilities.MakeRelative(Application.dataPath.Replace("/Assets", ""), filePath);
+    var jumpTag =
+        $"<a style='text-decoration: underline; href=\"{relativePath}\" line=\"{lineNumber}\">{relativePath}:{lineNumber}</a>";
+    sb.Append("\n").Append("在下方堆栈面板中点击链接跳转: [ at <color=#ff6565>").Append(jumpTag).Append("</color> ]");
+    // ============================ 
+    var logMessage = sb.ToString();
+    switch (logType)
+    {
+        case LogType.Log:
+        case LogType.Assert:
+            Debug.Log(logMessage);
+            break;
+        case LogType.Warning:
+            Debug.LogWarning(logMessage);
+            break;
+        case LogType.Error:
+        case LogType.Exception:
+            Debug.LogError(logMessage);
+            break;
+        default:
+            Debug.Log(logMessage);
+            break;
+    }
+    if (writeToFile)
+    {
+        WriteToFileExtension.Execute(logMessage, logType);
+    }
+    StringBuilderPool.Release(sb);
+}
+```
+
+![Console](../../imgs/OdinToolkitsCommonLoggerConsole.png)
+
+/// caption
+快速跳转效果截图
+///
 
 
 
