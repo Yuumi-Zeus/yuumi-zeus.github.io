@@ -9,23 +9,7 @@
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/comments/</loc>
-         <lastmod>2025-07-01</lastmod>
-    </url>
-    <url>
          <loc>https://www.odintoolkits.cn/odinToolkitsReadme/</loc>
-         <lastmod>2025-07-01</lastmod>
-    </url>
-    <url>
-         <loc>https://www.odintoolkits.cn/ScriptingAPI/Common/Logger/WriteToFileExtension/</loc>
-         <lastmod>2025-07-01</lastmod>
-    </url>
-    <url>
-         <loc>https://www.odintoolkits.cn/ScriptingAPI/Common/Logger/YuumixLogger/</loc>
-         <lastmod>2025-07-01</lastmod>
-    </url>
-    <url>
-         <loc>https://www.odintoolkits.cn/architecture/</loc>
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
@@ -53,27 +37,31 @@
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/modules/odin/OdinAttributeAnalysis/</loc>
+         <loc>https://www.odintoolkits.cn/comments/comments/</loc>
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/modules/odin/SwitchButtonAttribute/</loc>
+         <loc>https://www.odintoolkits.cn/community/</loc>
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/modules/tools/GenerateTemplateCode/</loc>
+         <loc>https://www.odintoolkits.cn/community/RubiLogger/</loc>
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/modules/tools/QuickGenerateSO/</loc>
+         <loc>https://www.odintoolkits.cn/manual/Common/CustomAttribute/SwitchButtonAttribute/</loc>
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/thirdparty/</loc>
+         <loc>https://www.odintoolkits.cn/manual/Modules/AttributeOverviewChinese/OdinAttributeAnalysis/</loc>
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
-         <loc>https://www.odintoolkits.cn/thirdparty/RubiLogger/</loc>
+         <loc>https://www.odintoolkits.cn/manual/Modules/Tools/QuickGenerateSO/</loc>
+         <lastmod>2025-07-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.odintoolkits.cn/manual/Modules/Tools/TemplateCodeGen/</loc>
          <lastmod>2025-07-01</lastmod>
     </url>
     <url>
