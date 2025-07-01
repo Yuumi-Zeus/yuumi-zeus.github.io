@@ -202,7 +202,7 @@ nav:
     - Manual:
         - Common:
             - CustomAttribute:
-                - SwitchAttribute: manual/Common/CustomAttribute/SwitchAttribute.md 
+                - SwitchAttribute: manual/Common/CustomAttribute/SwitchButtonAttribute.md
         - Modules:
             - AttributeOverviewChinese: manual/Modules/AttributeOverviewChinese/OdinAttributeAnalysis.md
             - Tools: 
