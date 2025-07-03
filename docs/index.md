@@ -48,7 +48,7 @@ Plugins/
 项目结构目前可以划分为三个模块：
 
 - `核心模块 [Core Modules]`：除了 `WorkInProgress/` 和 `Community/` 之外的所有文件，通常由我个人 `[Yuumi Zeus]` 编写以及维护，支持其他开发者贡献 `[Contribute]` ，但是需要遵守 `Odin Toolkits` 的代码规范，我将会审查贡献代码，维持 `Core Modules` 的代码规范统一。在持续迭代 `Core Modules` 过程中，我会不断吸收合并 `WorkInProgress` 模块中的代码，以及认真学习`Community` 模块中的解决方案。
-- `工作进行中模块 [WorkInProgress/]`：`WorkInProgress/` 文件夹的所有内容，类似于 `Unity` 的 `Experimental`, 仅由我个人提交代码，**此模块不接受贡献 `[Contribute]`**，并提交给 `Core Modules` 模块进行合并，并持续迭代，同时会与 `Core Modules` 模块进行代码合并，并持续迭代。
+- `工作进行中模块 [WorkInProgress/]`：`WorkInProgress/` 文件夹的所有内容，类似于 `Unity` 的 `Experimental`, 仅由我个人提交代码，**此模块不接受贡献 `[Contribute]`**，将会与 `Core Modules` 模块进行代码合并，并持续迭代。
 - `社区模块 [Community]`：`Community/` 文件夹的所有内容，类似于 `Odin Inspector` 的 `Community`, 非常欢迎其他开发者提交代码，此模块贡献 **只有一个要求**：进行 `Build` 空包测试，在只包含 `Odin Inspector` 和 `Odin Toolkits` 的项目工程中，构建没有出现错误。
 
 !!! tip 
@@ -57,5 +57,5 @@ Plugins/
     
     你的每一份支持都是我在业余时间持续维护、迭代项目的最强动力。
 
-    如果 Odin Toolkits 打包出现错误，或者代码规范不符合要求，请提 issue。或者留言给我，我会及时处理。
+    如果 Odin Toolkits 打包出现错误，或者代码规范不符合要求，请提 issue，或者留言给我，我会及时处理。
    

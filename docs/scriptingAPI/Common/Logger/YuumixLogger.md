@@ -3,7 +3,7 @@
 ## Introduction
 - NameSpace: `Yuumix.OdinToolkits.Common.Logger`
 - Assembly: `Assembly-CSharp-firstpass`
-- See Also [1] : https://www.odintoolkits.cn/blog/yuumixloggerdeveloplog/
+- See Also [1] : [https://www.odintoolkits.cn/blog/yuumixloggerdeveloplog/](https://www.odintoolkits.cn/blog/yuumixloggerdeveloplog/)
 
 ``` csharp
 [MultiLanguageComment]
